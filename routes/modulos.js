@@ -47,13 +47,6 @@ mysqlConnection.query(nuevoModulo,moduloArreglo,(err,results,fields)=>{
   res.json({message:'Módulo creado'}) ;
 } // fin si
 })// fin guardar módulo
-
-
-
 })// fin guardar un módulo
-
-
-
-
 
 module.exports =router;
